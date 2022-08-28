@@ -3,6 +3,7 @@ package com.example.currencyconverter;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -18,6 +19,7 @@ public class ExchangeValue {
     private String from;
     @Column(name="currency_to")
     private String to;
+    @Column(name="conversion_multiple", precision = 10, scale = 5)
     private BigDecimal conversionMultiple;
     @Setter
     private int port;

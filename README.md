@@ -1,7 +1,7 @@
 # forex-service
 ---------------
 # Usage:
-```http://localhost:8000/currency-exchange/from/RUB/to/USD```
+```http://localhost:8000/from/RUB/to/USD```
 --------------
 > Supported currencies: RUB, USD, EUR
 --------------

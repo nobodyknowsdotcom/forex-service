@@ -7,6 +7,7 @@
 --------------
 # Project stack:
 * Java 11, Spring Boot
-* Spring JPA, H2 database 
+* Spring JPA, H2 database
+* Eureka client
 * Spring Web
 * Lombok
